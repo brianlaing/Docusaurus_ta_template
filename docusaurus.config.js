@@ -43,20 +43,19 @@ module.exports = {
       },
     ],
   ],
- plugins: [
-    [require.resolve('@cmfcmf/docusaurus-search-local'), {
-    indexDocs: true,
-         docsRouteBasePath: '/',
-         indexDocSidebarParentCategories: 3,
-         indexPages: false,
-         language: ["en",  "ja"],
-     }]
-  ],
-  i18n: {
+   "plugins": [ 
+     [require.resolve('@cmfcmf/docusaurus-search-local'), {
+     indexDocs: true,
+     docsRouteBasePath: '/',
+     indexDocSidebarParentCategories: 3,
+     indexPages: false,
+    language: "en",
+    }]
+],
+  "i18n": {
     "defaultLocale": "en",
     "locales": [
-      "en",
-      "ja-jp"
+      "en"
     ],
     "localeConfigs": {}
   }
