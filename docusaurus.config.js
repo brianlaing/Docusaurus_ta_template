@@ -57,12 +57,12 @@ module.exports = {
     "locales": [
       "en",
       "de-de",
-      "es-es",
-      "fr-fr",
-      "it-it",
+     // "es-es",
+    //  "fr-fr",
+     // "it-it",
       "ja-jp",
-      "tr-tr",
-      "zh-tw",
+     // "tr-tr",
+    //  "zh-tw",
     ],
     "localeConfigs": {}
   }
