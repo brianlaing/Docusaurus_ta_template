@@ -56,11 +56,11 @@ module.exports = {
     "defaultLocale": "en",
     "locales": [
       "en",
-      "de-de",
+    //  "de-de",
      // "es-es",
     //  "fr-fr",
      // "it-it",
-      "ja-jp",
+     // "ja-jp",
      // "tr-tr",
     //  "zh-tw",
     ],
